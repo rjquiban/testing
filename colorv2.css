@@ -46,3 +46,17 @@ html, body {
 .empty-row {
     height: 25vh;
 }
+
+#buttons {
+    color: #F0EEE8;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+}
+
+#buttons:hover {
+    color: #7B7A88;
+    text-decoration: none;
+}
