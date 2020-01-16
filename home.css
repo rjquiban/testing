@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-height: 100vh;
+    overflow: hidden;
+    background-image: url("logofull.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    /*
+    border: 3px solid blue;
+    */
+    height: 100vh;
+    color: white;
+}
+
+.my-row {
+    justify-content: center;
+    /*
+    border: 1px dotted white;
+    */
+    height: 12.5vh;
+    align-items: center; /* vertical justification */
+    text-align: center;
+}
+
+.my-col {
+    border: 1px dotted white;
+    align-content: center;
+}
+
+.empty-row {
+    height: 25vh;
+}
+
+.empty-col {
+    /*
+    border: 1px dotted white;
+    */
+}

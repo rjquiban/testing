@@ -1,0 +1,31 @@
+#name {
+    font-family: 'Staatliches', sans-serif;
+    letter-spacing: 0.2em;
+    font-size: 6rem;
+}
+
+#tagline {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+}
+
+#bar {
+    float: right;
+}
+
+#title {
+    font-family: 'Arial Header', sans-serif;
+    font-weight: 600;
+}
+header {
+    background-color: cadetblue;
+}
+
+#about {
+    background-color: ivory;
+}
+
+#about :active {
+    position: relative;
+    top: 2px;
+}
