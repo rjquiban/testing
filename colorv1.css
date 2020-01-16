@@ -12,35 +12,22 @@ html, body {
 }
 
 .container {
-    /*
-    border: 3px solid blue;
-    */
     height: 100vh;
     color: white;
 }
 
 .my-row {
     justify-content: center;
-    /*
-    border: 1px dotted white;
-    */
     height: 12.5vh;
     align-items: center; /* vertical justification */
     text-align: center;
 }
 
 .my-col {
-    border: 1px dotted white;
     align-content: center;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .empty-row {
     height: 25vh;
-}
-
-.empty-col {
-    /*
-    border: 1px dotted white;
-    */
 }

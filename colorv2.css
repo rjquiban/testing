@@ -4,7 +4,7 @@ html, body {
     border: 0;
     max-height: 100vh;
     overflow: hidden;
-    background-image: url("logofull.jpg");
+    background-image: url("logofullv2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -12,35 +12,37 @@ html, body {
 }
 
 .container {
-    /*
-    border: 3px solid blue;
-    */
     height: 100vh;
-    color: white;
 }
 
 .my-row {
     justify-content: center;
-    /*
-    border: 1px dotted white;
-    */
     height: 12.5vh;
     align-items: center; /* vertical justification */
     text-align: center;
 }
 
+@keyframes unwrap {
+    from {background-color:#15181F;}
+    to {background: #7B7A88;}
+}
+
 .my-col {
-    border: 1px dotted white;
     align-content: center;
+    text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 0.5rem;
+    color:#F0EEE8;
+    /*
+    animation-name: unwrap;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    background-color: #7B7A88;
+    */
 }
 
 .empty-row {
     height: 25vh;
-}
-
-.empty-col {
-    /*
-    border: 1px dotted white;
-    */
 }
